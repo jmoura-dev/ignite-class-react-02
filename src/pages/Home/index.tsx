@@ -49,7 +49,7 @@ export function Home() {
 
   return (
     <HomeContainer>
-      <form onSubmit={handleSubmit(handleCreateNewCycle)} action="">
+      <form onSubmit={handleSubmit(handleCreateNewCycle)}>
         {activeCycle && <h2 className="title">{activeCycle.task}</h2>}
         <FormProvider {...newCycleForm}>
           <NewCycleForm />

@@ -14,6 +14,7 @@ export function App() {
           <Router />
         </CyclesContextProvider>
       </BrowserRouter>
+
       <GlobalStyle />
     </ThemeProvider>
   )
